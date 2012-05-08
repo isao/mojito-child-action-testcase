@@ -1,0 +1,24 @@
+[{
+    "settings": [ "master" ],
+    "specs": {
+
+        "inst1": {
+            "type": "HTMLFrameMojit",
+            "config": {
+                "child": {
+                    "base": "inst0",
+                    "action": "other",
+                    "config": {
+                        "#": "before pull 130 pt2 this displayed 'index action'"
+                    }
+                }
+            }
+        },
+
+        "inst0": {
+            "type": "MultiAction",
+            "action": "index"
+        }
+
+    }
+}]

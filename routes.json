@@ -1,0 +1,12 @@
+[{
+    "settings": [ "master" ],
+
+    "inst1": {
+        "call": "inst1.",
+        "path": "/"
+    },
+    "inst0": {
+        "call": "inst0.",
+        "path": "/inst0"
+    }
+}]
